@@ -17,7 +17,7 @@ public class ControllerFuncionario {
 	@Autowired
 	private RepositorioFuncionario repositorioFuncionario;
 
-	@GetMapping("/fucionarios")
+	@GetMapping("/funcionarios")
 	public List<Funcionario> listarTodosFuncionarios(){
 		return repositorioFuncionario.findAll();
 	}
