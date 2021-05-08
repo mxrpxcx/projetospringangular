@@ -19,7 +19,7 @@ public class Funcionario {
 	private String nome;
 	
 	@Column(name = "sobrenome")
-	private String sobreNome;
+	private String sobrenome;
 	
 	@Column(name = "email")
 	private String email;
@@ -28,10 +28,10 @@ public class Funcionario {
 	
 	}
 
-	public Funcionario(String nome, String sobreNome, String email) {
+	public Funcionario(String nome, String sobrenome, String email) {
 		super();
 		this.nome = nome;
-		this.sobreNome = sobreNome;
+		this.sobrenome = sobrenome;
 		this.email = email;
 	}
 	
@@ -48,10 +48,10 @@ public class Funcionario {
 		this.nome = nome;
 	}
 	public String getSobreNome() {
-		return sobreNome;
+		return sobrenome;
 	}
-	public void setSobreNome(String sobreNome) {
-		this.sobreNome = sobreNome;
+	public void setSobreNome(String sobrenome) {
+		this.sobrenome = sobrenome;
 	}
 	public String getEmail() {
 		return email;
